@@ -1,0 +1,61 @@
+{
+    "language": "English",
+    "@language":{
+      "description": "The current Language"
+    },
+    "favourite": "Favourite",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    
+    "title": "Random Girl for Jhonny",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "bookmark": "Bookmark",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "privacy": "Privacy",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "logout": "Logout",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "home": "Home",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    
+    "photo": "Photo",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "location": "Location",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "add": "Add",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "open": "API Screen",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "checknetwork": "Check Network",
+    "@helloWorld": {
+      "description": "A programmer greeting"
+    },
+    "hello": "Hello {username}",
+    "@hello": {
+      "description": "A welcome message",
+      "placeholders": {
+         "username": {
+           "type": "String"
+         }
+      }
+    }
+}
