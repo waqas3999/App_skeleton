@@ -1,6 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class NavigationDrawer extends StatelessWidget {
+  static const String title = 'Localication';
   const NavigationDrawer({Key? key}) : super(key: key);
 
   @override
@@ -17,7 +21,7 @@ class NavigationDrawer extends StatelessWidget {
   Widget buildHeader(BuildContext context) => Padding(
         padding: const EdgeInsets.only(top: 25),
         child: Column(
-          children: const [
+          children: [
             CircleAvatar(
               radius: 80,
               backgroundImage: NetworkImage(
@@ -26,7 +30,7 @@ class NavigationDrawer extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(10.0),
               child: Text(
-                "Random Girl for Sir Jhonny",
+                AppLocalizations.of(context)!.title,
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             )
@@ -37,27 +41,37 @@ class NavigationDrawer extends StatelessWidget {
         children: [
           ListTile(
             leading: const Icon(Icons.home_outlined),
-            title: const Text("Home"),
+            title: Text(
+              AppLocalizations.of(context)!.home,
+            ),
             onTap: () {},
           ),
           ListTile(
             leading: const Icon(Icons.favorite_border_outlined),
-            title: const Text("Favourite"),
+            title: Text(
+              AppLocalizations.of(context)!.favourite,
+            ),
             onTap: () {},
           ),
           ListTile(
             leading: const Icon(Icons.bookmark_add_outlined),
-            title: const Text("Bookmarks"),
+            title: Text(
+              AppLocalizations.of(context)!.bookmark,
+            ),
             onTap: () {},
           ),
           ListTile(
             leading: const Icon(Icons.privacy_tip_outlined),
-            title: const Text("Privacy"),
+            title: Text(
+              AppLocalizations.of(context)!.privacy,
+            ),
             onTap: () {},
           ),
           ListTile(
             leading: const Icon(Icons.logout_outlined),
-            title: const Text("Logout"),
+            title: Text(
+              AppLocalizations.of(context)!.logout,
+            ),
             onTap: () {},
           ),
         ],
