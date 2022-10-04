@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "68275776581",
+    "project_id": "stack-explained-flutter",
+    "storage_bucket": "stack-explained-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68275776581:android:bc1062416c2efd5741872c",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_mvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68275776581-8o74b63l70cq0ftqr0slrmqc7tlkt3sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThYrzg_SNEL9sdwE6dMuDeLt_ChVTzFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68275776581-8o74b63l70cq0ftqr0slrmqc7tlkt3sv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "68275776581-adlnsodokvdf0m831o09tj8m5qc4hg8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ecommerceMvvm"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68275776581:android:6f912c8c10f699c441872c",
+        "android_client_info": {
+          "package_name": "com.example.multiple_flavor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68275776581-8o74b63l70cq0ftqr0slrmqc7tlkt3sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThYrzg_SNEL9sdwE6dMuDeLt_ChVTzFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68275776581-8o74b63l70cq0ftqr0slrmqc7tlkt3sv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "68275776581-adlnsodokvdf0m831o09tj8m5qc4hg8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ecommerceMvvm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
